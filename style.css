@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar*/
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.95);
+  padding: 10px 20px;
+}
+
+
+.navbar .logo {
+  font-size: 30px; 
+  color: #ffb300; 
+  letter-spacing: 0.05em; 
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+.navbar .menu {
+  font-size: 18px;
+}
+
+.navbar .menu a {
+  margin-right: 10px;
+}
+
+  
+/* Estilos del Contenido Principal */
+
+.texto-principal {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.main-content {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+}
+  
+.main-content img {
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  object-fit: contain; 
+}
+  
+.top-half {
+  text-align: center; 
+  padding: 0px; 
+  background-image: url(https://digitaldaze.io/wp-content/uploads/2024/01/The-enigma-machine-1089x730.png);
+  height: 550px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+  
+.top-half img {
+  width: 100%;   
+  height: 400px; 
+  object-fit: cover; 
+  display: block;
+  margin: 0 auto; 
+}
+
+  
+.grupo {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  z-index: 1;
+  margin-bottom: 100px
+}
+
+.texto-titulos{
+  text-align: center;
+  margin-top: 125px;
+}
+  
+.container-texto{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin: 0 auto;
+  column-gap: 10%;
+  margin-bottom: 25px;
+}
+  
+.texto-pregunta {
+  text-align: justify;
+}
+.texto-pregunta a {
+  text-decoration: none;
+  color: rgb(255, 67, 67);
+  font-weight: 700;
+}
+  
+.imagen-grupo-1 {
+  width: 30%;
+}
+  
+input[type="text"] {
+  border-radius: 10px;
+  width: 200px;
+  padding: 15px 30px;
+  border: none;
+  outline: none;
+  background-color: #efefef;
+  margin-bottom: 15px;
+}
+input[type="text"]::placeholder {
+  font-style: italic;
+  font-size: 15px;
+}
+
+.caja, .boton {
+  margin-left: 60px;
+}
+
+button {
+  padding: 12px 20px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background-color: #ffb300;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #383838
+}
+
+button:hover {
+  background-color: #ffbe28;
+  color: #ffffff;
+  
+}
+
+/* 
+.caja {
+  border: 1px solid #ccc; 
+  padding: 10px; 
+  margin-bottom: 20px; 
+  min-height: 100px; 
+}
+
+/* Estilo para el botón */
+/*.boton {
+  background-color: #007bff; 
+  color: white; 
+  padding: 10px 20px;
+  cursor: pointer; 
+  display: inline-block; 
+  border-radius: 5px;
+}
+
+.boton:hover {
+  background-color: #0056b3; 
+}
+*/

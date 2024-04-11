@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>El enigma del hacker</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script src="scape.js"></script>
+  <style>
+    /* Estilo para ocultar las pruebas */
+    .prueba-oculta {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="logo">
+      El enigma del hacker
+    </div>
+  </div>
+
+  <!-- Contenido principal que incluye la imagen de donación de juguetes y la sección de tarjetas -->
+  <div class="main-content">
+
+    <!-- Parte superior con la imagen de donación de juguetes -->
+    <div class="top-half">
+    </div>
+
+    <!-- Sección de tarjetas -->
+    <div class="grupo">
+      <div class="texto-principal">
+        <p>En un enclave de inn0vación tecnológica, resplandece un bastión de seguridad digital. Sin embargo, las sombras
+          acechan en los r1ncones binar1os de esta fortaleza cibernética.
+          Un grupo clandestino de piratas informáticos, hábiles en los misteri0s0s caminos del cód1go, ha l0grado
+          burlar los sofisticados s1stemas de pr0tecc1ón para acceder a los tesoros dig1tales más preciad0s. Su
+          objet1vo: extraer la 1nformac1ón confidencial que yace resguardada en las entrañas electrónicas de esta
+          guarida tecn0lógica. <Br> <br> Tu vali0sa per1c1a ha sido convocada para hacer frente a esta amenaza
+          virtual.
+          Si decides aceptar esta crucial misión, te embarcarás en un vertigin0so v1aje a través de l0s
+          intrincad0s c1rcuitos del sistema, enfrentando desafí0s cod1f1cados y acertijos encriptados. Será tu
+          resp0nsabilidad 0btener la clave maestra que perm1ta el acceso a la base de datos y poner f1n al atraco
+          cibernético antes de que los ladrones digitales logren escapar con su botín de información val1osa. <br>
+          <br> No 0bstante, el t1empo es un recurso f1nito en esta carrera c0ntra el reloj. Cada minuto que pasa
+          acerca más al enemigo a su v1ctor1a, y el peligro acecha en cada línea de código. En este escape ro0m
+          1nformático, cada decisión y cada acción tendrán repercusiones cruciales. La habilidad para descifrar el
+          enigma, combinar el ingenio con la destreza técnica y trabajar en equipo serán las claves para desentrañar
+          este intrincado rompecabezas digital. <br><br> ¿Estás preparad0 para sumergirte en este desaf1o de
+          proporc10nes cibernéticas? ¿Tienes l0 necesari0 para dec0dificar el complicado entramado del código y
+          preservar la integridad de los datos? El destino de la seguridad informática yace en tus manos. Es hora de
+          demostrar tu valía en el campo de batalla v1rtual y salvar el día <b>24/10/24</b> de la amenaza que se cierne
+          sobre el centro de tecnología avanzada.
+        </p>
+      </div>
+      <div class="texto-titulos">
+        <h1> PRUEBA 1: Desafío del Correo Oculto </h1>
+      </div>
+      <div class="container-texto">
+        <div class="texto-pregunta">
+          <p>¡Bienvenidos, intrépidos escapistas!</p>
+          <p>En esta emocionante aventura, te enfrentarás a un desafío de habilidad y astucia. 
+            Para avanzar al siguiente nivel, deberás descifrar el código proporcionado en el texto superior y adivinar el correo electrónico oculto. Una vez que hayas descifrado el código y descubierto el correo electrónico, envía un mensaje al mismo con el asunto: “Dame la siguiente pista”.</p>
+          <p>¡Que la suerte esté de tu lado y que la mente más aguda prevalezca!</p>
+          <p><b>Pista:</b> Averigua que palabra se esconde y fíjate bien en la fecha que aparece en el texo.</p>
+        </div>
+        <img class="imagen-grupo-1" src="./Img/live-escape-game-1155620_1280.jpg" alt="" srcset="">
+      </div>
+
+      <div class="texto-titulos">
+        <h1> PRUEBA 2: Rastreo de la Zona </h1>
+      </div>
+      <div class="container-texto">
+        <img class="imagen-grupo-1" src="./Img/google-maps.webp" alt="" srcset="">
+        <div class="texto-pregunta">
+          <p>En el correo electrónico recibido se nos proporciona una pista. Presumimos que el intruso se
+            está conectando a la red wifi desde un establecimiento cercano, posiblemente un piso o
+            local adyacente. <br><br> Busca la pista en Google Maps y rastrea la zona en busca de ese dato numerico para avanzar en la investigación.
+            
+          </p>
+        </div>
+      </div>
+      <div id="prueba2">
+        <div class="caja">
+          <input type="text" id="respuestaPrueba2" placeholder="Escribe tu respuesta aquí">
+        </div>
+        <div class="boton">
+          <button onclick="validarRespuestaPrueba2()">Siguiente</button>
+        </div>
+        <div id="feedbackPrueba2"></div>
+      </div>
+
+      <div class="texto-titulos">
+        <h1> PRUEBA 3: Exploración del Repositorio </h1>
+      </div>
+      <div class="container-texto prueba-oculta" id="prueba3">
+        <img class="imagen-grupo-1" src="./Img/25231.png" alt="" srcset="">
+        <div class="texto-pregunta">
+          <p>
+            Hemos obtenido una dirección de github desde el router del bar, el cual debemos explorar para seguir con la
+            búsqueda. <br> <br> Tu tarea es encontrar el código morse dentro del repositorio de GitHub para obtener más
+            información sobre las actividades del intruso.
+            <br> <br>
+            <a href="https://github.com/pxtricixdev/Codigo-Enigma/tree/main" target="_blank">Encuentra el código aquí</a>
+          </p>
+        </div>
+      </div>
+      <div class="caja prueba-oculta">
+        <input type="text" id="respuestaPrueba3" placeholder="Escribe tu respuesta aquí">
+      </div>
+      <div class="  boton prueba-oculta" id="botonPrueba3">
+        <button onclick="validarRespuestaPrueba3()">Siguiente</button>
+      </div>
+      <div id="feedbackPrueba3" class="prueba-oculta"></div>
+
+      <div class="texto-titulos">
+        <h1> PRUEBA 4: Descrifrando la IP </h1>
+      </div>
+      <div class="container-texto prueba-oculta" id="prueba4">
+        <div class="texto-pregunta">
+          <p>
+            El código morse proporcionado debe ser descifrado para obtener una dirección IP. Esta dirección IP deberá ser
+            resuelta para avanzar en la siguiente prueba. <br> <br> Es crucial comprender cada punto y raya del código
+            morse y luego convertirlo en texto legible. Una vez que se haya logrado, se puede proceder a analizar la
+            dirección IP obteniendo la <b> subred.</b> <br> <br>Este proceso es fundamental para
+            avanzar en la investigación y encontrar al intruso. Cada paso debe llevarse a cabo con precisión y cuidado
+            para garantizar el éxito en la resolución del problema.
+          </p>
+
+        </div>
+        <img class="imagen-grupo-1" src="./Img/Escape_Room_-__The_Expedition__(Escape_Quest_Bethesda).jpg" alt="" srcset="">
+      </div>
+      <div class="caja prueba-oculta">
+        <input type="text" id="respuestaPrueba4" placeholder="Escribe tu respuesta aquí">
+      </div>
+      <div class="boton prueba-oculta" id="botonPrueba4" >
+        <button onclick="validarRespuestaPrueba4()">Siguiente</button>
+      </div>
+      <div id="feedbackPrueba4" class="prueba-oculta"></div>
+
+      <div class="texto-titulos">
+        <h1> PRUEBA 5: Cifrado César </h1>
+      </div>
+      <div class="container-texto prueba-oculta" id="prueba5">
+        <div class="texto-pregunta">
+          <p>
+            En un barrio lleno de historia y misterio, una residencia resguarda los secretos de un hacker astuto. Su
+            puerta, custodiada por un mecanismo electrónico, se abre solo con una frase enigmática. Junto a ella,
+            encontramos un mensaje críptico y una corona de laurel, evocando al líder de la antigua Roma que marcó la
+            transición hacia el Imperio. <br>Su legado nos guía hacia la resolución del enigma, en lugar de recurrir a
+            la fuerza bruta. En este desafío, tu destreza para descifrar códigos será crucial. <br> <br> ¿Estás listo
+            para desentrañar este enigma y descubrir el próximo paso en la búsqueda del hacker? <br> <br> “hñ ñdehulpwr gljlwdñ.”
+          </p>
+
+        </div>
+        <img class="imagen-grupo-1" src="./Img/cifrado.png" alt="" srcset="">
+      </div>
+      <div class="caja prueba-oculta">
+        <input type="text" id="respuestaPrueba5" placeholder="Escribe tu respuesta aquí">
+      </div>
+      <div class="boton prueba-oculta" id="botonPrueba5">
+        <button onclick="validarRespuestaPrueba5()">Siguiente</button>
+      </div>
+      <div id="feedbackPrueba5" class="prueba-oculta"></div>
+
+      <div class="texto-titulos">
+        <h1> PRUEBA 6: Identificación del Equipo  </h1>
+      </div>
+      <div class="container-texto prueba-oculta" id="prueba6">
+        <div class="texto-pregunta">
+          <p>
+            ¡Enhorabuena! Después de un arduo rastreo digital, finalmente hemos logrado rastrear la ubicación del hacker hasta su escondite secreto. 
+            Tras un meticuloso allanamiento virtual, hemos logrado recopilar valiosa información sobre su equipo informático. 
+            Entre los componentes que hemos identificado se encuentran:
+            <ul>
+              <li><b>Procesador:</b> Intel Core i7-14700KF 3.4/5.6GHz Box</li>
+              <li><b>Placa base:</b> ASUS TUF GAMING B760 PLUS WIFI</li>
+              <li><b>RAM:</b> Corsair Vengeance RGB DDR5 6000MHz PC5-48000 32GB 2x16GB CL36 Negra</li>
+              <li><b>Caja:</b> Forgeon Mithril ARGB Mesh Torre ATX Negra</li>
+              <li><b>Refrigeración líquida:</b> MSI MAG CORELIQUID M360 ARGB Kit de Refrigeración Líquida 360mm Negro</li>
+              <li><b>Fuente de alimentación:</b> Corsair RMe Series RM850e 850W 80 Plus Gold Modular</li>
+              <li><b>Tarjeta gráfica:</b> MSI GeForce RTX 4070 VENTUS 3X E OC 12GB GDDR6 DLSS3</li>
+            </ul>
+            <br>
+            ¿Cuál es el componente faltante en el equipo informático del hacker? ¿Qué otro componente necesitamos identificar para completar la lista?
+          </p>
+          
+        </div>
+        <img class="imagen-grupo-1" src="./Img/Hacker-vs-Cracker_Cloud-Center-Andalucía_Principal.png" alt="" srcset="">
+      </div>
+
+      <div class="caja prueba-oculta">
+        <input type="text" id="respuestaPrueba6" placeholder="Escribe tu respuesta aquí">
+      </div>
+      <div class="boton prueba-oculta" id="botonPrueba6">
+        <button onclick="validarRespuestaPrueba6()">Siguiente</button>
+      </div>
+      <div id="feedbackPrueba7" class="prueba-oculta"></div>
+
+      <div class="texto-titulos">
+        <h1> PRUEBA 7: Rastreo Criptográfico de Transacciones </h1>
+      </div>
+      <div class="container-texto prueba-oculta" id="prueba7">
+        <div class="texto-pregunta">
+          <p>
+            Hemos descubierto una pista crucial en nuestra investigación. Al acceder al sistema del hacker, hemos detectado una transacción de criptomonedas sospechosa. 
+          </p>
+          <p>Parece que el delincuente está utilizando un software automatizado para transferir fondos a una dirección específica. La ID de la transacción es la siguiente:</p>
+          <span><b>b2d840c3691b67ef199cefa2880896a9d9a60dbbaf4b4c3f784f44dac6dcd697</b></span>
+          <p> Nuestro objetivo es determinar cuántas <b>partes</b> ha dividido el hacker esta transacción para evitar ser rastreado en la red. Tu misión es utilizar tus habilidades criptográficas para descifrar esta transacción y encontrar el número de destinatarios implicados. 
+            ¡Buena suerte, agentes! El destino del rastreo de fondos está en vuestras manos.</p>
+          
+        </div>
+        <img class="imagen-grupo-1" src="./Img/cripto.webp" alt="" srcset="">
+      </div>
+
+      <div class="caja prueba-oculta">
+        <input type="text" id="respuestaPrueba7" placeholder="Escribe tu respuesta aquí">
+      </div>
+      <div class="boton prueba-oculta" id="botonPrueba7">
+        <button onclick="validarRespuestaPrueba7()">Siguiente</button>
+      </div>
+      <div id="feedbackPrueba7" class="prueba-oculta"></div>
+   </div>
+
+
+
+</body>
+
+</html>
